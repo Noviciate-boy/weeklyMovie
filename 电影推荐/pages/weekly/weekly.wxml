@@ -1,0 +1,13 @@
+<!--pages/weekly/weekly.wxml-->
+<swiper class="movieSwiper" indicator-dots="{{true}}" indicator-color="gray" indicator-active-color="green" current="{{currentIndex}}">
+  <swiper-item  wx:for="{{weeklyMovieList}}" wx:key="id">
+    <view  class="first" bindtap="tpDetail" data-movie-id="{{item.id}}">
+      <text>第{{index+1}}周推荐</text>
+      <image src="{{item.img}}"/>
+      <text class="firstText">{{item.name}}</text>
+      <text>点评：{{item.comment}}</text>
+      <text hidden="{{!item.isHighlyRecomment}}" class="importantText">强烈推荐</text>
+      <text wx:if='{{index<(weeklyMovieList.length-1)}}' class="rethisWeek" catchtap="retureFirst">返回本周</text>
+    </view>
+  </swiper-item>
+</swiper>

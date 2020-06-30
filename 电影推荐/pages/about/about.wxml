@@ -1,0 +1,10 @@
+<!--pages/about/about.wxml-->
+<view class="first">
+  <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=124431218,116365242&fm=26&gp=0.jpg"/>
+  <text class="firLine">电影周周看</text>
+  <view>
+    <navigator style='display:inline; 'url='/pages/weekly/weekly' open-type="switchTab"hover-class='nav-hover' class="nav-default" ><text>每周推荐</text></navigator>
+    <text>一部好片</text>
+  </view>
+  <text>我的微博</text>
+</view>

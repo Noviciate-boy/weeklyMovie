@@ -1,0 +1,21 @@
+/* pages/weekly/weekly.wxss */
+.movieSwiper{
+  height: 100vh;
+  position: relative;
+}
+.importantText{
+  color: gold;
+  font-weight: bold;
+}
+.firstText{
+  font-weight: bold;
+  font-size: 17px;
+}
+.rethisWeek{
+  position: absolute;
+  top: 20rpx;
+  right: 0rpx;
+  font-size: 14px;
+  background-color: rgba(35, 173, 162, 0.788);
+  border-radius: 10%;
+}

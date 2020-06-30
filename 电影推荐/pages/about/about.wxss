@@ -1,0 +1,17 @@
+/* pages/about/about.wxss */
+
+.first image{
+  height: 375rpx;
+  width: 375rpx;
+  border-radius: 50%;
+}
+.firLine{
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-default{
+  color: blue;
+}
+.nav-hover{
+  color: red;
+}
